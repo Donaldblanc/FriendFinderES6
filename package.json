@@ -1,0 +1,28 @@
+{
+  "name": "friendfinderes6",
+  "version": "1.0.0",
+  "description": "Ruttgers Friends Finder written in ES6",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon ./server.js --exec babel-node -e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Donaldblanc/FriendFinderES6.git"
+  },
+  "author": "Donald Blanc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Donaldblanc/FriendFinderES6/issues"
+  },
+  "homepage": "https://github.com/Donaldblanc/FriendFinderES6#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
