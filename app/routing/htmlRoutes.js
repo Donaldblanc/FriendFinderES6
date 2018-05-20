@@ -2,7 +2,7 @@ import path from 'path';
 
 export default function (app){
 
-    console.log("In the HTML export");
+   // console.log("In the HTML export");
     
     app.get("/survey", (req, res) => {
         res.sendFile(path.join(__dirname + "/../public/survey.html"))

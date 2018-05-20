@@ -14,7 +14,7 @@ export default function (app) {
             photo: "",
             fdifference: 1000
         };
-        console.log(req.body);
+        //console.log(req.body);
         var userResponses = req.body;
         var userScores = userResponses.scores;
         console.log(userScores);
